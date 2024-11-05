@@ -213,7 +213,7 @@ namespace big
 			ImGui::EndCombo();
 		}
 		ImGui::Text("VIEW_DEBUG_GLOBAL_SIZE"_T.data());
-		ImGui::SliderInt("##squadsize", &new_template.m_squad_size, 1, 8);
+		ImGui::SliderInt("##squadsize", &new_template.m_squad_size, 1, 100);
 		ImGui::PopItemWidth();
 
 		ImGui::EndGroup();
